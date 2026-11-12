@@ -1,4 +1,6 @@
 # AWS Secure & Monitored Cloud Architecture
+> [!NOTE]
+> **This project is archived.** It was built manually through the AWS Console. For my more recent work using Infrastructure as Code, containers and CI/CD, see [aws-terraform-infra](https://github.com/greeg75/aws-terraform-infra).
 
 Secure AWS infrastructure with EC2, Public &amp; Private Subnets, CloudWatch Monitoring &amp; Alarms, SNS, and S3 Logging.
 
