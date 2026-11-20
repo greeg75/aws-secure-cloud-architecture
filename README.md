@@ -19,7 +19,7 @@ In a standard cloud setup, servers are often exposed to the internet via public 
 * **Secure Data**: Implement secure log archiving to Amazon S3.
 
 ### Expected Results:
-1.  A server with **no public IP** and **no open ports**.
+1.  A server with **no public IP** and **no inbound access from the internet**.
 2.  A functional **NAT Gateway** for secure outbound updates.
 3.  A **CloudWatch Dashboard** showing live RAM usage.
 4.  An **automated email alert** triggered during high-load scenarios with SNS.
@@ -358,7 +358,7 @@ The final architecture is composed of:
 
 This project successfully demonstrates the deployment of a **secure, fully isolated AWS infrastructure** with real-time monitoring and automated alerting.
 
-It replicates a production-like environment where:
+It applies security practices used in production environments:
 - The infrastructure is protected by design (no public exposure)
 - Monitoring and alerting are fully automated
 - Data is securely stored and controlled
@@ -388,15 +388,15 @@ Key takeaways include:
 
 This project demonstrates a complete end-to-end AWS cloud architecture combining infrastructure design, security best practices, observability, and automated alerting.
 
-It reflects a production-like mindset focused on reliability, security, and operational efficiency.
+It focuses on security and observability best practices.
 
 ---
 
 ## Author
 
-Gregory JACQUET
+**Grégory Jacquet**
 
-Aspiring Cloud DevOps / Cloud Engineer Security
+Junior Cloud / DevOps Engineer
 
 LinkedIn: https://www.linkedin.com/in/gregoryjacquet/
 
@@ -405,7 +405,5 @@ This project was designed and implemented as part of a personal initiative to de
 ---
 
 ## Career Focus
-
-This project reflects my growing interest in Cloud Architecture and the design of secure and scalable cloud systems.
 
 My goal is to continue developing expertise in cloud architecture, automation, and security best practices in real-world environments.
