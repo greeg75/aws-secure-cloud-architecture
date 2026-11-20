@@ -99,7 +99,7 @@ The IAM role includes the following policies:
 - **Least Privilege**: Only strictly necessary permissions were granted  
 - **No Static Credentials**: No access keys stored on the instance  
 - **Secure Administration**: All access is performed via AWS Systems Manager (SSM)  
-- **Audit-Friendly Design**: Actions are traceable through AWS logging services 
+
 
 💡 This design significantly reduces the risk of credential exposure and unauthorized access.
 
@@ -117,7 +117,7 @@ The EC2 instance was deployed with a **security-first approach**, ensuring it re
 
 - Deployed inside the **Private Subnet only**
 - **No Public IP assigned**
-- Operating system: Linux (Amazon Linux / Ubuntu)
+- Operating system: Linux (Amazon Linux)
 - Managed exclusively via **AWS Systems Manager (SSM)**
 
 ➡️ This design completely removes the need for SSH access.
@@ -387,8 +387,6 @@ Key takeaways include:
 ## Final Note
 
 This project demonstrates a complete end-to-end AWS cloud architecture combining infrastructure design, security best practices, observability, and automated alerting.
-
-It focuses on security and observability best practices.
 
 ---
 
